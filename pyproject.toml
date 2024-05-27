@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tree-sort"
+version = "0.1.0"
+description = ""
+authors = ["Xei201 <xei201@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "tree_sort"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
